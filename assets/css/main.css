@@ -1,15 +1,32 @@
-@import url("https://rsms.me/inter/inter.css");
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
+        url("../fonts/Inter-UI-Regular.woff") format("woff");
+}
+
+@font-face{
+  font-family:Inter UI Bold;
+  font-style:normal;
+  font-weight:700;
+  src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
+        url("../fonts/Inter-UI-Bold.woff") format("woff");
+  font-display:fallback;
+}
 
 html {
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter UI';
+  font-weight: normal;
 }
 
-@supports (font-variation-settings: normal) {
+/* @supports (font-variation-settings: normal) {
   html {
     font-family: "Inter var", sans-serif;
   }
-}
+} */
 
 html,
 body {
@@ -25,18 +42,22 @@ body {
 
 h1 {
   font-size: 1.7rem;
+  font-family: 'Inter UI Bold';
 }
 
 h2 {
   font-size: 1.5rem;
+  font-family: 'Inter UI Bold';
 }
 
 h3 {
   font-size: 1.3rem;
+  font-family: 'Inter UI Bold';
 }
 
 h4 {
   font-size: 1.1em;
+  font-family: 'Inter UI Bold';
 }
 
 p,
