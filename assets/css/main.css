@@ -109,7 +109,7 @@ a {
 a:hover {
   opacity: 0.5;
 }
-
+/* 
 code {
   white-space: pre;
   background: #eeeeee;
@@ -118,6 +118,14 @@ code {
   display: inline-block;
   max-width: 100%;
   overflow: auto;
+} */
+
+p code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,.05);
+  border-radius: 6px;
 }
 
 pre {
@@ -145,7 +153,7 @@ iframe {
 }
 
 .tippy-box > .tippy-arrow:before {
-  transform: scale(2);
+  trans**Form**: scale(2);
 }
 
 footer {
@@ -158,9 +166,10 @@ footer {
 }
 
 .bl-section {
+  margin-top: 20px;
   padding: 10px;
   margin-bottom: 50px;
-  background-color: #fee;
+  background-color: #f5ffd5;
 }
 
 .backlinks {

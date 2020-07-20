@@ -3,6 +3,9 @@
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </div>
+    <div>
+      <small>Last updated {{ .Lastmod.Format "January 2, 2006" }}.</small>
+    </div>
     <div class="bl-section">
       <h4>Links to this note</h4>
       <div class="backlinks">

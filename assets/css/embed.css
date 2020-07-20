@@ -47,7 +47,24 @@ h3 {
 }
 
 a {
-  user-select: none;
+  /* user-select: none; */
   pointer-events: none;
   color: rgba(10, 132, 255, 1);
+}
+
+.bl-section {
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: #f5ffd5;
+}
+
+.backlinks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bl-section h4 {
+  color: #aaa;
+  margin-top: 0;
 }
